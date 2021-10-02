@@ -1,0 +1,28 @@
+3510 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5471 [Test worker] INFO  TestBase - Start test -->newTabtest
+5474 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5492 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5499 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5512 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5512 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (91644fd5e9b8b684f266f82c0fbe80de)] -> id: close-fixedban]
+5609 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5624 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5624 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (91644fd5e9b8b684f266f82c0fbe80de)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5722 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[.='Browser Windows']
+5754 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[.='Browser Windows']
+5754 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (91644fd5e9b8b684f266f82c0fbe80de)] -> xpath: //span[.='Browser Windows']]
+5918 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //button[.='New Tab']
+6079 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //button[.='New Tab']
+6080 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (91644fd5e9b8b684f266f82c0fbe80de)] -> xpath: //button[.='New Tab']]
+7451 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: sampleHeading
+17574 [Test worker] INFO  applications.ListenerMy - We have a throwable --> no such element: Unable to locate element: {"method":"css selector","selector":"#sampleHeading"}
+  (Session info: chrome=94.0.4606.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:48e:bd02:3d42:a351%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91644fd5e9b8b684f266f82c0fbe80de
+*** Element info: {Using=id, value=sampleHeading}
+18204 [Test worker] INFO  applications.ListenerMy - Screenshot with throwable -->src/test/screenshots/screenshot-2711.png
+18208 [Test worker] INFO  TestBase - End of method -->newTabtest

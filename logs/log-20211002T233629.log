@@ -1,0 +1,18 @@
+3956 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5946 [Test worker] INFO  TestBase - Start test -->AlertSendTextTest
+5947 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5960 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5967 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (59e80320fa0f08dfd304774fef84d962)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+7089 [Test worker] INFO  applications.ListenerMy - We have a throwable --> element click intercepted: Element <h5>...</h5> is not clickable at point (716, 677). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" srcdoc="" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:48e:bd02:3d42:a351%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59e80320fa0f08dfd304774fef84d962
+7779 [Test worker] INFO  applications.ListenerMy - Screenshot with throwable -->src/test/screenshots/screenshot-2196.png
+7783 [Test worker] INFO  TestBase - End of method -->AlertSendTextTest
+7816 [Test worker] INFO  TestBase - End of method -->alertTest
+7821 [Test worker] INFO  TestBase - End of method -->alertTestWait
+7824 [Test worker] INFO  TestBase - End of method -->cancelAlertTest
+7826 [Test worker] INFO  TestBase - End of method -->oKlAlertTest

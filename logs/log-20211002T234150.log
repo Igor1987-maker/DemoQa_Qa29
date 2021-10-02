@@ -1,0 +1,20 @@
+3405 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5533 [Test worker] INFO  TestBase - Start test -->cancelAlertTest
+5535 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5651 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5658 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5672 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5673 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc79e504462de63ca9a2d2cf7095c3c2)] -> id: close-fixedban]
+5832 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5853 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5853 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc79e504462de63ca9a2d2cf7095c3c2)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5939 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+5956 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+5956 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc79e504462de63ca9a2d2cf7095c3c2)] -> xpath: //span[text()='Alerts']]
+6587 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: confirmButton
+6612 [Test worker] INFO  applications.ListenerMy - Found -->By.id: confirmButton
+6613 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc79e504462de63ca9a2d2cf7095c3c2)] -> id: confirmButton]
+8815 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: confirmResult
+8867 [Test worker] INFO  applications.ListenerMy - Found -->By.id: confirmResult
+8951 [Test worker] INFO  applications.ListenerMy - We take a text -->You selected Cancel
+8957 [Test worker] INFO  TestBase - End of method -->cancelAlertTest

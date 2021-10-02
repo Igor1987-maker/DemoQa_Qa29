@@ -1,0 +1,20 @@
+3415 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5482 [Test worker] INFO  TestBase - Start test -->oKlAlertTest
+5485 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5566 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5573 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5586 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5587 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc76b9f0c777ebe8f37fee7fd671d34b)] -> id: close-fixedban]
+5624 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5638 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5639 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc76b9f0c777ebe8f37fee7fd671d34b)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5742 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+5765 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+5765 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc76b9f0c777ebe8f37fee7fd671d34b)] -> xpath: //span[text()='Alerts']]
+6040 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: confirmButton
+6171 [Test worker] INFO  applications.ListenerMy - Found -->By.id: confirmButton
+6171 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (cc76b9f0c777ebe8f37fee7fd671d34b)] -> id: confirmButton]
+6939 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: confirmResult
+6990 [Test worker] INFO  applications.ListenerMy - Found -->By.id: confirmResult
+7065 [Test worker] INFO  applications.ListenerMy - We take a text -->You selected Ok
+7074 [Test worker] INFO  TestBase - End of method -->oKlAlertTest

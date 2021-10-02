@@ -1,0 +1,17 @@
+4050 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+6002 [Test worker] INFO  TestBase - Start test -->alertTestWait
+6003 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+6022 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+6032 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+6115 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+6116 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (0388b95883188021c4d66db08bd7c6d0)] -> id: close-fixedban]
+6152 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+6172 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+6172 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (0388b95883188021c4d66db08bd7c6d0)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+6258 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+6280 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+6281 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (0388b95883188021c4d66db08bd7c6d0)] -> xpath: //span[text()='Alerts']]
+6422 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: timerAlertButton
+6443 [Test worker] INFO  applications.ListenerMy - Found -->By.id: timerAlertButton
+6444 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (0388b95883188021c4d66db08bd7c6d0)] -> id: timerAlertButton]
+12032 [Test worker] INFO  TestBase - End of method -->alertTestWait

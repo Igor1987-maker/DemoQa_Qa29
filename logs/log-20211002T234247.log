@@ -1,0 +1,20 @@
+3560 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+6029 [Test worker] INFO  TestBase - Start test -->AlertSendTextTest
+6030 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+6050 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+6059 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+6157 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+6157 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (82dc9bfe136ec76a4dbc4760ae13d2f8)] -> id: close-fixedban]
+6222 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+6241 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+6241 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (82dc9bfe136ec76a4dbc4760ae13d2f8)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+6406 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+6424 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+6424 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (82dc9bfe136ec76a4dbc4760ae13d2f8)] -> xpath: //span[text()='Alerts']]
+6568 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: (//*[@class='col']//button)[last()]
+6967 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: (//*[@class='col']//button)[last()]
+6967 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (82dc9bfe136ec76a4dbc4760ae13d2f8)] -> xpath: (//*[@class='col']//button)[last()]]
+8167 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[@id='promptResult']
+8184 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[@id='promptResult']
+8198 [Test worker] INFO  applications.ListenerMy - We take a text -->You entered Hello
+8202 [Test worker] INFO  TestBase - End of method -->AlertSendTextTest

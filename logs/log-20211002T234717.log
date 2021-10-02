@@ -1,0 +1,82 @@
+3225 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5187 [Test worker] INFO  TestBase - Start test -->studentRegFormTest
+5189 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5258 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5266 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5279 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5279 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: close-fixedban]
+5320 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div[@class='category-cards']/div[2]
+5337 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div[@class='category-cards']/div[2]
+5337 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> xpath: //div[@class='category-cards']/div[2]]
+5924 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[.='Practice Form']
+6056 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[.='Practice Form']
+6056 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> xpath: //span[.='Practice Form']]
+6198 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: firstName
+6212 [Test worker] INFO  applications.ListenerMy - Found -->By.id: firstName
+6212 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: firstName]
+6367 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: firstName
+6375 [Test worker] INFO  applications.ListenerMy - Found -->By.id: firstName
+6419 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: firstName
+6428 [Test worker] INFO  applications.ListenerMy - Found -->By.id: firstName
+6525 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: lastName
+6540 [Test worker] INFO  applications.ListenerMy - Found -->By.id: lastName
+6541 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: lastName]
+6627 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: lastName
+6636 [Test worker] INFO  applications.ListenerMy - Found -->By.id: lastName
+6659 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: lastName
+6668 [Test worker] INFO  applications.ListenerMy - Found -->By.id: lastName
+6699 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userEmail
+6711 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userEmail
+6711 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: userEmail]
+6756 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userEmail
+6768 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userEmail
+6796 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userEmail
+6806 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userEmail
+6946 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //label[@for='gender-radio-1']
+6961 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //label[@for='gender-radio-1']
+6961 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> xpath: //label[@for='gender-radio-1']]
+7038 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userNumber
+7056 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userNumber
+7056 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: userNumber]
+7206 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userNumber
+7218 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userNumber
+7250 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: userNumber
+7260 [Test worker] INFO  applications.ListenerMy - Found -->By.id: userNumber
+7342 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: dateOfBirthInput
+7360 [Test worker] INFO  applications.ListenerMy - Found -->By.id: dateOfBirthInput
+7361 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: dateOfBirthInput]
+7831 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: subjectsInput
+7884 [Test worker] INFO  applications.ListenerMy - Found -->By.id: subjectsInput
+7885 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: subjectsInput]
+7981 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: subjectsInput
+7991 [Test worker] INFO  applications.ListenerMy - Found -->By.id: subjectsInput
+8019 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: subjectsInput
+8028 [Test worker] INFO  applications.ListenerMy - Found -->By.id: subjectsInput
+8153 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: subjectsInput
+8177 [Test worker] INFO  applications.ListenerMy - Found -->By.id: subjectsInput
+8232 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //label[@for='hobbies-checkbox-1']
+8246 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //label[@for='hobbies-checkbox-1']
+8246 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> xpath: //label[@for='hobbies-checkbox-1']]
+8319 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: currentAddress
+8332 [Test worker] INFO  applications.ListenerMy - Found -->By.id: currentAddress
+8333 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: currentAddress]
+8433 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: currentAddress
+8442 [Test worker] INFO  applications.ListenerMy - Found -->By.id: currentAddress
+8479 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: currentAddress
+8496 [Test worker] INFO  applications.ListenerMy - Found -->By.id: currentAddress
+8595 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: react-select-3-input
+8620 [Test worker] INFO  applications.ListenerMy - Found -->By.id: react-select-3-input
+8894 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: react-select-4-input
+8905 [Test worker] INFO  applications.ListenerMy - Found -->By.id: react-select-4-input
+9174 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: uploadPicture
+9187 [Test worker] INFO  applications.ListenerMy - Found -->By.id: uploadPicture
+9739 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: submit
+9757 [Test worker] INFO  applications.ListenerMy - Found -->By.id: submit
+9758 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: submit]
+10371 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: example-modal-sizes-title-lg
+10392 [Test worker] INFO  applications.ListenerMy - Found -->By.id: example-modal-sizes-title-lg
+10405 [Test worker] INFO  applications.ListenerMy - We take a text -->Thanks for submitting the form
+10407 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: closeLargeModal
+10420 [Test worker] INFO  applications.ListenerMy - Found -->By.id: closeLargeModal
+10420 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (eae755b56a062a37ae13090de5a48c80)] -> id: closeLargeModal]
+10482 [Test worker] INFO  TestBase - End of method -->studentRegFormTest

@@ -1,0 +1,20 @@
+3006 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+4919 [Test worker] INFO  TestBase - Start test -->newWindowTest
+4921 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+4941 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+4950 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5016 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5016 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (6bfe314368df58fb4be995ce8c8376af)] -> id: close-fixedban]
+5052 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5074 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5074 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (6bfe314368df58fb4be995ce8c8376af)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5166 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[.='Browser Windows']
+5184 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[.='Browser Windows']
+5184 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (6bfe314368df58fb4be995ce8c8376af)] -> xpath: //span[.='Browser Windows']]
+5283 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //button[.='New Window']
+5313 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //button[.='New Window']
+5313 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (6bfe314368df58fb4be995ce8c8376af)] -> xpath: //button[.='New Window']]
+5954 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: sampleHeading
+6034 [Test worker] INFO  applications.ListenerMy - Found -->By.id: sampleHeading
+6061 [Test worker] INFO  applications.ListenerMy - We take a text -->This is a sample page
+6112 [Test worker] INFO  TestBase - End of method -->newWindowTest

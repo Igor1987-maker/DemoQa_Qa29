@@ -1,0 +1,20 @@
+3553 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+8997 [Test worker] INFO  TestBase - Start test -->newTabtest
+8999 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+9018 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+9024 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+9037 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+9038 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (dbff1da19e19e9d20af3ad638bf864da)] -> id: close-fixedban]
+9084 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+9099 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+9099 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (dbff1da19e19e9d20af3ad638bf864da)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+9172 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[.='Browser Windows']
+9192 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[.='Browser Windows']
+9193 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (dbff1da19e19e9d20af3ad638bf864da)] -> xpath: //span[.='Browser Windows']]
+9255 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //button[.='New Tab']
+9306 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //button[.='New Tab']
+9306 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (dbff1da19e19e9d20af3ad638bf864da)] -> xpath: //button[.='New Tab']]
+9668 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: sampleHeading
+9730 [Test worker] INFO  applications.ListenerMy - Found -->By.id: sampleHeading
+9763 [Test worker] INFO  applications.ListenerMy - We take a text -->This is a sample page
+9770 [Test worker] INFO  TestBase - End of method -->newTabtest

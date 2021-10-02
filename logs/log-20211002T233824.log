@@ -1,0 +1,16 @@
+2948 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+4802 [Test worker] INFO  TestBase - Start test -->AlertSendTextTest
+4803 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+4822 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+4828 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+4840 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+4840 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (f0f21e0bc5c64215ff8e0dcd778741a6)] -> id: close-fixedban]
+4927 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+4941 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+4942 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (f0f21e0bc5c64215ff8e0dcd778741a6)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5021 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+5039 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+5040 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (f0f21e0bc5c64215ff8e0dcd778741a6)] -> xpath: //span[text()='Alerts']]
+5184 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: (//*[@class='col']//button)[last()]
+5268 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: (//*[@class='col']//button)[last()]
+5268 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (f0f21e0bc5c64215ff8e0dcd778741a6)] -> xpath: (//*[@class='col']//button)[last()]]

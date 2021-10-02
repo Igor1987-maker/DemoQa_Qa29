@@ -1,0 +1,34 @@
+3422 [Test worker] INFO  applications.ListenerMy - Start on -->https://demoqa.com/
+5327 [Test worker] INFO  TestBase - Start test -->AlertSendTextTest
+5328 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+5341 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+5346 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (ae1149a9deec29fd551b4cdb8ed6905b)] -> id: close-fixedban]
+5434 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5447 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //div/h5[.='Alerts, Frame & Windows']
+5447 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (ae1149a9deec29fd551b4cdb8ed6905b)] -> xpath: //div/h5[.='Alerts, Frame & Windows']]
+5514 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[text()='Alerts']
+5529 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[text()='Alerts']
+5530 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (ae1149a9deec29fd551b4cdb8ed6905b)] -> xpath: //span[text()='Alerts']]
+5594 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: (//*[@class='col']//button)[last()]
+5645 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: (//*[@class='col']//button)[last()]
+5646 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (ae1149a9deec29fd551b4cdb8ed6905b)] -> xpath: (//*[@class='col']//button)[last()]]
+7852 [Test worker] INFO  applications.ListenerMy - Start search -->By.xpath: //span[@id='promptResult']
+7875 [Test worker] INFO  applications.ListenerMy - Found -->By.xpath: //span[@id='promptResult']
+7889 [Test worker] INFO  applications.ListenerMy - We take a text -->You entered Hello
+7895 [Test worker] INFO  TestBase - End of method -->AlertSendTextTest
+7897 [Test worker] INFO  TestBase - Start test -->alertTest
+7898 [Test worker] INFO  applications.ListenerMy - Start search -->By.id: close-fixedban
+7908 [Test worker] INFO  applications.ListenerMy - Found -->By.id: close-fixedban
+7911 [Test worker] INFO  applications.ListenerMy - Click on --> [[ChromeDriver: chrome on MAC (ae1149a9deec29fd551b4cdb8ed6905b)] -> id: close-fixedban]
+18011 [Test worker] INFO  applications.ListenerMy - We have a throwable --> element not interactable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:48e:bd02:3d42:a351%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae1149a9deec29fd551b4cdb8ed6905b
+18652 [Test worker] INFO  applications.ListenerMy - Screenshot with throwable -->src/test/screenshots/screenshot-2271.png
+18654 [Test worker] INFO  TestBase - End of method -->alertTest
+18655 [Test worker] INFO  TestBase - End of method -->alertTestWait
+18657 [Test worker] INFO  TestBase - End of method -->cancelAlertTest
+18658 [Test worker] INFO  TestBase - End of method -->oKlAlertTest
