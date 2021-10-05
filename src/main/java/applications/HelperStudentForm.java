@@ -20,11 +20,29 @@ public class HelperStudentForm extends applications.HelperBase {
         click(By.xpath("//span[.='Practice Form']"));
     }
 
+    public void submit() {
+        click(By.id("submit"));
+    }
+
     public void fillForm(StudentForm model) {
 
-
+        type(By.id("firstName"),model.getFirstName());
+        type(By.id("lastName"),model.getLastName());
+        type(By.id("userEmail"),model.getEmail());
+        selectGender(model.getGender());
+        type(By.id("userNumber"),model.getPhone());
     }
 
+    private void selectGender(String gender){
+        if(gender.equals("Male")){
+            click(By.xpath("//label[@for='gender-radio-1']"));
+        }else if(gender.equals("Female")){
+            click(By.xpath("//label[@for='gender-radio-2']"));
+        }else{
+            click(By.xpath("//label[@for='gender-radio-3']"));
+        }
     }
+
+}
 
 

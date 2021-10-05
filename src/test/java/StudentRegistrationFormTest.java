@@ -27,6 +27,9 @@ public class StudentRegistrationFormTest extends TestBase{
                     .state("NCR")
                     .city("Gurgaon");
 
+            app.forms().fillForm(model);
+            app.forms().submit();
+
 
     }
 }
