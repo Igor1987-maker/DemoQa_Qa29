@@ -12,11 +12,13 @@ public class AlertTests extends TestBase{
 
     @Test
     public void alertTestButton1(){
+app.alert().clickButton1();
 
 
     }
     @Test
     public void alertTestButton2(){
+        app.alert().clickButton2();
 
     }
     @Test

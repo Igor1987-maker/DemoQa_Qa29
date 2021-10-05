@@ -11,7 +11,7 @@ public class WindowsTests extends TestBase{
 
     @Test
     public void newTabButtonTest(){
-
+app.windows().clickOnNewTabWindow();
     }
 
     @Test
