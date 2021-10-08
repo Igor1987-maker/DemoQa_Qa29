@@ -44,4 +44,8 @@ public class HelperBase {
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("document.querySelector('footer').style.display='none';");
     }
+    public void scroll (int x, int y){
+        JavascriptExecutor js =  (JavascriptExecutor) wd;
+        js.executeScript("window.scrollBy(" + x + "," + y + ")");
+    }
 }

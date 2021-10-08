@@ -20,9 +20,9 @@ public class StudentRegistrationFormTest extends TestBase{
                     .email("john@mail.com")
                     .gender("Male")
                     .phone("1234567890")
-                    .birthday("25 4 1990")
+                    .birthday("30 6 1990")
                     .subject("Maths")
-                    .hobbies("Sport")
+                    .hobbies("Sports Music")
                     .address("Tel Aviv")
                     .state("NCR")
                     .city("Gurgaon");
