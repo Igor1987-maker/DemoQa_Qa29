@@ -16,6 +16,7 @@ app.windows().clickOnNewTabWindow();
 
     @Test
     public void newWindowTest(){
+        app.windows().clickSmaleTabWindow();
 
     }
 

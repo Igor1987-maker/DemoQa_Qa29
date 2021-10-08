@@ -23,4 +23,13 @@ public class HelperWindows extends HelperBase{
         System.out.println(wd.findElement(By.id("sampleHeading")).getText());
 
     }
+
+    public void clickSmaleTabWindow() {
+        click(By.id("windowButton"));
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1));
+        pause(2000);
+        wd.switchTo().window(tabs.get(0));
+        pause(3000);
+    }
 }
