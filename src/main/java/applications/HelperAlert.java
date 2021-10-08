@@ -40,4 +40,29 @@ public class HelperAlert extends HelperBase{
         alert.accept();
 
     }
+
+    public void clickCancelButton3() {
+
+        click(By.id("confirmButton"));
+        wd.switchTo().alert().dismiss();
+
+    }
+
+    public void clickOkButton3() {
+
+        click(By.id("confirmButton"));
+        wd.switchTo().alert().accept();
+
+            }
+
+    public void SendAlertText() {
+        click(By.xpath("//button[@id='promtButton']"));
+
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+
+        wd.switchTo().alert().sendKeys("Moshe");
+        alert.accept();
+    }
 }

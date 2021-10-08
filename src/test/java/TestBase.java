@@ -5,8 +5,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
     protected static ApplicationManager app
-            = new ApplicationManager
-            ();
+            = new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
 
 
 
