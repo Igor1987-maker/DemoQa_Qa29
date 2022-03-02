@@ -5,4 +5,6 @@ public class SmokeTest extends TestBase{
     public void smoke (){
         System.out.println("Test smoke --> passed");
     }
+    
+    //after test
 }
