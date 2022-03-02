@@ -31,9 +31,6 @@ public class WindowsTests extends TestBase{
         app.windows().clickOnNewWindowMessage();
 
     }
-   @AfterMethod
-    public void dfsdf(){
 
-   }
 
 }
