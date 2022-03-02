@@ -13,17 +13,18 @@ public class ApplicationManager {
     HelperStudentForm studentForm;
     HelperWindows windows;
     HelperAlert alert;
-String browser;
+    String browser;
+    ActionHelper action;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
 
     public void init() {
-        if(browser.equals(BrowserType.CHROME)) {
+        if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
-        }else if (browser.equals(BrowserType.FIREFOX)){
-            wd=new FirefoxDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new FirefoxDriver();
         }
 
         wd = new ChromeDriver();
@@ -33,7 +34,7 @@ String browser;
         studentForm = new HelperStudentForm(wd);
         windows = new HelperWindows(wd);
         alert = new HelperAlert(wd);
-
+        action = new ActionHelper(wd);
 
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("document.querySelector('footer').style.display='none';");
@@ -50,6 +51,11 @@ String browser;
     public HelperAlert alert() {
         return alert;
     }
+
+    public ActionHelper action() {
+        return action;
+    }
+
 
     public void stop() {
         wd.quit();
