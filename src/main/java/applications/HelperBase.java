@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
+import java.util.ArrayList;
+
 public class HelperBase {
     WebDriver wd;
 
@@ -47,5 +49,20 @@ public class HelperBase {
     public void scroll (int x, int y){
         JavascriptExecutor js =  (JavascriptExecutor) wd;
         js.executeScript("window.scrollBy(" + x + "," + y + ")");
+    }
+
+    public void tapOncheckBoxViaJS(){
+      JavascriptExecutor js = (JavascriptExecutor) wd;
+      js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+    }
+
+    public void openWindowViaJS(){
+
+        ((JavascriptExecutor)wd).executeScript("window.open('https://www.edureka.co','_blank');");
+        ArrayList<String> tabs = new ArrayList<>(wd.getWindowHandles());
+
+        wd.switchTo().window(tabs.get(0));
+
     }
 }
