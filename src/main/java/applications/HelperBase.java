@@ -53,6 +53,7 @@ public class HelperBase {
 
     public void tapOncheckBoxViaJS(){
       JavascriptExecutor js = (JavascriptExecutor) wd;
+      js.executeScript("document.querySelector('#terms-of-use').click();");
       js.executeScript("document.querySelector('#terms-of-use').checked=true;");
 
     }
