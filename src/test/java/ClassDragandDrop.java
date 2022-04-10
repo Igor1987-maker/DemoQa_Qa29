@@ -9,6 +9,7 @@ public class ClassDragandDrop extends TestBase {
 
     public void testToDrag() {
         app.action().selectInteractions();
+       // app.action().scrolling();
         app.action().selectDroppable();
         app.action().droppebleTests();
     }

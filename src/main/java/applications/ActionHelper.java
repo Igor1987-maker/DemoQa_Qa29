@@ -40,6 +40,7 @@ public class ActionHelper extends HelperBase{
         if(isElementPresent(By.id("close-fixedban"))) {
             click(By.id("close-fixedban"));
         }
+        scrolling();
         click(By.xpath("//div[@class='category-cards']/div[5]"));
         pause(500);
 
@@ -48,5 +49,11 @@ public class ActionHelper extends HelperBase{
     public void selectDroppable() {
         hideFooter();
         click(By.xpath("//span[text()='Droppable']"));
+
     }
+    public void scrolling(){
+        scrollItoView(By.xpath("//div[@class='category-cards']/div[5]"));
+
+    }
+
 }

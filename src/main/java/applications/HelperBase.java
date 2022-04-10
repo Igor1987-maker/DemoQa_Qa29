@@ -3,6 +3,7 @@ package applications;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
 
@@ -65,5 +66,11 @@ public class HelperBase {
 
         wd.switchTo().window(tabs.get(0));
 
+    }
+
+    public void scrollItoView (By locator){
+        WebElement element = wd.findElement(locator);
+        JavascriptExecutor js =  (JavascriptExecutor) wd;
+        js.executeScript("arguments[0].scrollIntoView(true);",element);
     }
 }
